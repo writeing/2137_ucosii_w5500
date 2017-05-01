@@ -1,0 +1,1029 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\HQL\ucos相关\ucOS-stm32f103\Project\ucos_stm32f103.uvproj
+Project File Date:  09/17/2015
+
+<h2>Output:</h2>
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(4): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(68): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(33): error:  #20: identifier "temp8" is undefined
+..\APP\App.c(4): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+".\ucos_stm32f103.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(33): error:  #20: identifier "temp8" is undefined
+..\APP\App.c(4): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+".\ucos_stm32f103.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(4): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+.\ucos_stm32f103.axf: Error: L6218E: Undefined symbol tmp8 (referred from app.o).
+".\ucos_stm32f103.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(4): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11506 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(4): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+.\ucos_stm32f103.axf: Error: L6218E: Undefined symbol tmp8 (referred from app.o).
+".\ucos_stm32f103.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(4): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11506 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(4): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTaskStatStk multiply defined (by os_core.o and app.o).
+".\ucos_stm32f103.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(70): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11506 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(70): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTaskStatStk multiply defined (by os_core.o and app.o).
+".\ucos_stm32f103.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(70): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11506 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(70): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTaskStatStk multiply defined (by os_core.o and app.o).
+".\ucos_stm32f103.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(70): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_flag.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mbox.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mutex.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_q.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_sem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_task.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_time.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_tmr.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_cpu_c.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_dbg.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+linking...
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTaskStatStk multiply defined (by os_core.o and app.o).
+".\ucos_stm32f103.axf" - 1 Errors, 17 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6088  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(36): warning:  #174-D: expression has no effect
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6088  
+".\ucos_stm32f103.axf" - 0 Errors, 5 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(14): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11506 RO-data=622 RW-data=104 ZI-data=6088  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_flag.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mbox.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mutex.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_q.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_sem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_task.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_time.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_tmr.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_cpu_c.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_dbg.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+linking...
+.\ucos_stm32f103.axf: Error: L6218E: Undefined symbol tempxxx (referred from app.o).
+".\ucos_stm32f103.axf" - 1 Errors, 17 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11506 RO-data=622 RW-data=104 ZI-data=6088  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_flag.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mbox.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mutex.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_q.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_sem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_task.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_time.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_tmr.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_cpu_c.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_dbg.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=11506 RO-data=622 RW-data=104 ZI-data=6088  
+".\ucos_stm32f103.axf" - 0 Errors, 17 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(36): error:  #20: identifier "tempxxx" is undefined
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_flag.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mbox.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mutex.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_q.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_sem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_task.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_time.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_tmr.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_cpu_c.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_dbg.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+".\ucos_stm32f103.axf" - 1 Errors, 17 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(36): error:  #20: identifier "tempxxx" is undefined
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+".\ucos_stm32f103.axf" - 1 Errors, 5 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(69): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 5 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 1 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\OS-uCOSII\core\os_core.c(1813): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=11362 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 2 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\OS-uCOSII\core\os_core.c(1813): warning:  #111-D: statement is unreachable
+compiling os_flag.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mbox.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mutex.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_q.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_sem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_task.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_time.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_tmr.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_cpu_c.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_dbg.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=11362 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 18 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(67): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_flag.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mbox.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_mutex.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_q.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_sem.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_task.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_time.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_tmr.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_cpu_c.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+compiling os_dbg.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 17 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(65): error:  #169: expected a declaration
+..\APP\App.c(101): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(7): warning:  #177-D: function "led1_task" was declared but never referenced
+".\ucos_stm32f103.axf" - 1 Errors, 5 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(68): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(68): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11498 RO-data=622 RW-data=104 ZI-data=6008  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\App\app_cfg.h(7): warning:  #1-D: last line of file ends without a newline
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 3 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 0 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(16): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSIntNesting multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSEventTbl multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSFlagTbl multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTaskStatStk multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTaskIdleStk multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTCBPrioTbl multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTCBTbl multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSCtxSwCtr multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSEventFreeList multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSFlagFreeList multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSCPUUsage multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSIdleCtrMax multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSIdleCtrRun multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSStatRdy multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSLockNesting multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSPrioCur multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSPrioHighRdy multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSRdyGrp multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSRdyTbl multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSRunning multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTaskCtr multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSIdleCtr multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTCBCur multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTCBFreeList multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTCBHighRdy multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTCBList multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTickStepState multiply defined (by os_core.o and app.o).
+.\ucos_stm32f103.axf: Error: L6200E: Symbol OSTime multiply defined (by os_core.o and app.o).
+".\ucos_stm32f103.axf" - 28 Errors, 3 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 3 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(62): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 3 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(61): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 3 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 0 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(26): error:  #20: identifier "i" is undefined
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(61): warning:  #177-D: function "led1_task" was declared but never referenced
+".\ucos_stm32f103.axf" - 1 Errors, 3 Warning(s).
+Target not created
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(61): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 3 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(60): warning:  #177-D: function "led1_task" was declared but never referenced
+linking...
+Program Size: Code=11442 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 3 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #177-D: variable "led1_task_stk" was declared but never referenced
+..\APP\App.c(6): warning:  #177-D: variable "led2_task_stk" was declared but never referenced
+..\APP\App.c(61): warning:  #177-D: function "led1_task" was declared but never referenced
+..\APP\App.c(74): warning:  #177-D: function "led2_task" was declared but never referenced
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+linking...
+Program Size: Code=11490 RO-data=622 RW-data=104 ZI-data=6232  
+".\ucos_stm32f103.axf" - 0 Errors, 5 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling stm32f10x_it.c...
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #550-D: variable "led1_task_stk" was set but never used
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+..\APP\App.c(78): warning:  #177-D: function "led2_task" was declared but never referenced
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+linking...
+Program Size: Code=11514 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #550-D: variable "led1_task_stk" was set but never used
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+..\APP\App.c(8): warning:  #177-D: function "led2_task" was declared but never referenced
+linking...
+Program Size: Code=11462 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+linking...
+Program Size: Code=11462 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 0 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+linking...
+Program Size: Code=11462 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(8): warning:  #177-D: function "led2_task" was declared but never referenced
+linking...
+Program Size: Code=11482 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 2 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #550-D: variable "led1_task_stk" was set but never used
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+..\APP\App.c(8): warning:  #177-D: function "led2_task" was declared but never referenced
+linking...
+Program Size: Code=11462 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #550-D: variable "led1_task_stk" was set but never used
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+..\APP\App.c(8): warning:  #177-D: function "led2_task" was declared but never referenced
+linking...
+Program Size: Code=11462 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Load "E:\\HQL\\ucos相关\\ucOS-stm32f103\\Project\\ucos_stm32f103.axf" 
+Set JLink Project File to "E:\HQL\ucos相关\ucOS-stm32f103\Project\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected.
+ 
+JLink info:
+------------
+DLL: V5.00i, compiled Jul 10 2015 18:28:14
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20140713 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'uCOSII-STM32F103RBT6'
+compiling App.c...
+..\APP\includes.h(15): warning:  #1-D: last line of file ends without a newline
+..\APP\App.c(5): warning:  #550-D: variable "led1_task_stk" was set but never used
+..\APP\App.c(65): warning:  #177-D: function "led1_task" was declared but never referenced
+..\APP\App.c(8): warning:  #177-D: function "led2_task" was declared but never referenced
+linking...
+Program Size: Code=11462 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 4 Warning(s).
+Build target 'uCOSII-STM32F103RBT6'
+linking...
+Program Size: Code=11462 RO-data=622 RW-data=104 ZI-data=5912  
+".\ucos_stm32f103.axf" - 0 Errors, 0 Warning(s).

@@ -1,0 +1,18 @@
+---- getCmd_task Matches (17 in 2 files) ----
+App.c (app):static void getCmd_task(void *p_arg);
+App.c (app):	OSTaskCreate(getCmd_task, (void *)0,&startup_task_stk[STARTUP_TASK_STK_SIZE - 1],STARTUP_TASK_PRIO);
+App.c (app):static void getCmd_task(void *p_arg)
+Ucos_stm32f103.htm (project):getCmd_task &rArr; main_w5500 &rArr; Load_Net_Parameters &rArr; setSocketinfo &rArr; atoi &rArr; strtol &rArr; _strtoul
+Ucos_stm32f103.htm (project): <LI><a href="#[38]">getCmd_task</a> from app.o(.text) referenced from app.o(.text)
+Ucos_stm32f103.htm (project):<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR><BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getCmd_task
+Ucos_stm32f103.htm (project):<P><STRONG><a name="[38]"></a>getCmd_task</STRONG> (Thumb, 96 bytes, Stack size 0 bytes, app.o(.text))
+Ucos_stm32f103.htm (project):<LI>Call Chain = getCmd_task &rArr; main_w5500 &rArr; Load_Net_Parameters &rArr; setSocketinfo &rArr; atoi &rArr; strtol &rArr; _strtoul
