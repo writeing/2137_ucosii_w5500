@@ -31,7 +31,7 @@ void sendBaseDataAboutIphone(void);
 int scankey(void );
 
 void isCallIphone(int status);
-
+ 
 
 void initServer(unsigned char sock);
 

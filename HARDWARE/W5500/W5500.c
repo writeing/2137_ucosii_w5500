@@ -875,7 +875,7 @@ void initW5500_tcpSer(SOCKET s)
 	strcpy((char *)iinfo.ip,(char *)"169.254.77.5");
 	strcpy((char *)socketInfo[s].info.Port,(char *)"19.136");
 	strcpy((char *)socketInfo[s].info.DIP,(char *)"169.254.77.79");
-	strcpy((char *)socketInfo[s].info.DPort,(char *)"37.28");
+	strcpy((char *)socketInfo[s].info.DPort,(char *)"37.128");
 }
 
 void send(SOCKET s,u8 *data)

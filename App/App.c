@@ -40,16 +40,19 @@ static void getCmd_task(void *p_arg)
 {
 	systick_init();	
 	strcpy(iinfo.num,"963258");
-	strcpy(iinfo.serPort,"9601");
+	strcpy(iinfo.serPort,"37.129");  //9601
 	
 	initSocket(sock_tcpSer);
 	initServer(sock_ser);
 	sendBaseDataAboutIphone();
  	while(1)
 	{		
+		W5500_Socket_Set(sock_tcpSer);
+		W5500_Socket_Set(sock_ser);
 		if(recv(sock_tcpSer))
 			{
 				//get data
+				printf("recv = %s",socketInfo[sock_tcpSer].Rx_Buffer);
 				getTcpSerCmd(socketInfo[sock_tcpSer].Rx_Buffer);
 			}
 		isCallIphone(scankey());
@@ -64,9 +67,16 @@ static void recv_task(void *p_arg)
 	while(1){
 		WXCLED( OFF);  
 		OSTimeDlyHMSM(0,0,0,400);			
+		if(recv(sock_ser))
+		{
+			//get data				
+			send(sock_tcpSer,socketInfo[sock_ser].Rx_Buffer);
+			//getTcpSerCmd(socketInfo[sock_tcpSer].Rx_Buffer);
+		}
 		if(iinfo.status == IPHONECOMMON)
 		{
 			//get data about 
+
 		}
 		if(isCallUp ==1 )
 		{

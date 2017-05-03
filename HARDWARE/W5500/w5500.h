@@ -255,8 +255,8 @@ extern unsigned char W5500_Interrupt;	//W5500中断标志(0:无中断,1:有中断)
 typedef unsigned char SOCKET;			//自定义端口号数据类型
 typedef struct sockconnectinfo
 {
-	char Port[30];
-	char DIP[10];
+	char Port[10];
+	char DIP[30];
 	char DPort[10];		
 }sockConnectInfo;
 

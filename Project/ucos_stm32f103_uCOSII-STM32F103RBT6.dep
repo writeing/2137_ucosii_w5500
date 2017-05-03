@@ -211,7 +211,7 @@ I (..\App\app_cfg.h)(0x59048C7D)
 I (..\App\os_cfg.h)(0x5603C6CD)
 I (..\OS-uCOSII\port\os_cpu.h)(0x55F7EC21)
 F (..\App\stm32f10x_conf.h)(0x4D99A59E)()
-F (..\APP\App.c)(0x5906BA17)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CM3 -I..\App -I..\OS-uCOSII\core -I..\OS-uCOSII\port -I..\Bsp -I..\DELAY -I..\HARDWARE\LED -I..\HARDWARE\SPI -I..\HARDWARE\W5500 -I..\USART -I..\Project-I C:\Users\write_1\Desktop\2137_ip电话\2137_ucosii_w5500\Project\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\app.o --omf_browse .\app.crf --depend .\app.d)
+F (..\APP\App.c)(0x5909F37C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CM3 -I..\App -I..\OS-uCOSII\core -I..\OS-uCOSII\port -I..\Bsp -I..\DELAY -I..\HARDWARE\LED -I..\HARDWARE\SPI -I..\HARDWARE\W5500 -I..\USART -I..\Project-I C:\Users\write_1\Desktop\2137_ip电话\2137_ucosii_w5500\Project\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\app.o --omf_browse .\app.crf --depend .\app.d)
 I (..\Libraries\CM3\stm32f10x.h)(0x4D783CB4)
 I (..\Libraries\CM3\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -246,14 +246,14 @@ I (..\App\app_cfg.h)(0x59048C7D)
 I (..\App\os_cfg.h)(0x5603C6CD)
 I (..\OS-uCOSII\port\os_cpu.h)(0x55F7EC21)
 I (..\Bsp\Bsp.h)(0x55F7DBEB)
-I (..\HARDWARE\W5500\W5500.h)(0x5906BA21)
+I (..\HARDWARE\W5500\W5500.h)(0x5909E5C3)
 I (..\DELAY\delay.h)(0x59040CCA)
 I (..\HARDWARE\LED\led.h)(0x58FAD266)
 I (..\USART\usart.h)(0x5902092E)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (..\HARDWARE\SPI\spi.h)(0x514FD370)
-I (..\Project\ipCallW5500.h)(0x5906BA9B)
+I (..\Project\ipCallW5500.h)(0x5909DDD9)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 F (..\BSP\Bsp.c)(0x55FA9DDB)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CM3 -I..\App -I..\OS-uCOSII\core -I..\OS-uCOSII\port -I..\Bsp -I..\DELAY -I..\HARDWARE\LED -I..\HARDWARE\SPI -I..\HARDWARE\W5500 -I..\USART -I..\Project-I C:\Users\write_1\Desktop\2137_ip电话\2137_ucosii_w5500\Project\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\bsp.o --omf_browse .\bsp.crf --depend .\bsp.d)
 F (..\OS-uCOSII\core\os_core.c)(0x5604B411)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CM3 -I..\App -I..\OS-uCOSII\core -I..\OS-uCOSII\port -I..\Bsp -I..\DELAY -I..\HARDWARE\LED -I..\HARDWARE\SPI -I..\HARDWARE\W5500 -I..\USART -I..\Project-I C:\Users\write_1\Desktop\2137_ip电话\2137_ucosii_w5500\Project\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\os_core.o --omf_browse .\os_core.crf --depend .\os_core.d)
@@ -444,7 +444,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
-F (..\HARDWARE\W5500\W5500.c)(0x5906B129)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CM3 -I..\App -I..\OS-uCOSII\core -I..\OS-uCOSII\port -I..\Bsp -I..\DELAY -I..\HARDWARE\LED -I..\HARDWARE\SPI -I..\HARDWARE\W5500 -I..\USART -I..\Project-I C:\Users\write_1\Desktop\2137_ip电话\2137_ucosii_w5500\Project\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\w5500.o --omf_browse .\w5500.crf --depend .\w5500.d)
+F (..\HARDWARE\W5500\W5500.c)(0x5909DE73)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CM3 -I..\App -I..\OS-uCOSII\core -I..\OS-uCOSII\port -I..\Bsp -I..\DELAY -I..\HARDWARE\LED -I..\HARDWARE\SPI -I..\HARDWARE\W5500 -I..\USART -I..\Project-I C:\Users\write_1\Desktop\2137_ip电话\2137_ucosii_w5500\Project\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\w5500.o --omf_browse .\w5500.crf --depend .\w5500.d)
 I (..\Libraries\CM3\stm32f10x.h)(0x4D783CB4)
 I (..\Libraries\CM3\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
@@ -474,7 +474,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D783BB4)
 I (..\HARDWARE\SPI\spi.h)(0x514FD370)
-I (..\HARDWARE\W5500\W5500.h)(0x5906BA21)
+I (..\HARDWARE\W5500\W5500.h)(0x5909E5C3)
 I (..\DELAY\delay.h)(0x59040CCA)
 I (..\OS-uCOSII\core\ucos_ii.h)(0x5604B411)
 I (..\App\app_cfg.h)(0x59048C7D)
@@ -484,11 +484,11 @@ I (..\HARDWARE\LED\led.h)(0x58FAD266)
 I (..\USART\usart.h)(0x5902092E)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
-I (..\Project\ipCallW5500.h)(0x5906BA9B)
+I (..\Project\ipCallW5500.h)(0x5909DDD9)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
-F (.\ipCallW5500.c)(0x5906B981)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CM3 -I..\App -I..\OS-uCOSII\core -I..\OS-uCOSII\port -I..\Bsp -I..\DELAY -I..\HARDWARE\LED -I..\HARDWARE\SPI -I..\HARDWARE\W5500 -I..\USART -I..\Project-I C:\Users\write_1\Desktop\2137_ip电话\2137_ucosii_w5500\Project\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\ipcallw5500.o --omf_browse .\ipcallw5500.crf --depend .\ipcallw5500.d)
-I (ipCallW5500.h)(0x5906BA9B)
-I (..\HARDWARE\W5500\W5500.h)(0x5906BA21)
+F (.\ipCallW5500.c)(0x5909F6DB)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CM3 -I..\App -I..\OS-uCOSII\core -I..\OS-uCOSII\port -I..\Bsp -I..\DELAY -I..\HARDWARE\LED -I..\HARDWARE\SPI -I..\HARDWARE\W5500 -I..\USART -I..\Project-I C:\Users\write_1\Desktop\2137_ip电话\2137_ucosii_w5500\Project\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\ipcallw5500.o --omf_browse .\ipcallw5500.crf --depend .\ipcallw5500.d)
+I (ipCallW5500.h)(0x5909DDD9)
+I (..\HARDWARE\W5500\W5500.h)(0x5909E5C3)
 I (..\DELAY\delay.h)(0x59040CCA)
 I (..\Libraries\CM3\stm32f10x.h)(0x4D783CB4)
 I (..\Libraries\CM3\core_cm3.h)(0x4D523B58)
@@ -527,5 +527,5 @@ I (..\USART\usart.h)(0x5902092E)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
 I (..\HARDWARE\SPI\spi.h)(0x514FD370)
-I (..\Project\ipCallW5500.h)(0x5906BA9B)
+I (..\Project\ipCallW5500.h)(0x5909DDD9)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)

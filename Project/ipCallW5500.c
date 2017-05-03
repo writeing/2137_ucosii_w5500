@@ -12,14 +12,14 @@ int sock_udp = 3;
 int isCallUp = 0;  // 0 null  1: has call up
 int getCmdType(u8 *data)
 {
-	char cmdCode[][2] = {"12","13","14","15","16","17"};
+	char cmdCode[][8] = {"COM0","COM1","COM2","COM3","COM4","COM5","COM6","COM7","COM8","COM9","COM10"};
 	int i = 0;
-	for(i = 0 ; i < 6; i ++)
+	for(i = 0 ; i < 11; i ++)
 		{
 			if(strstr((char *)data,(char *)cmdCode[i]))
-				{
-					return atoi((char *)cmdCode[i]);
-				}				
+			{
+				return 10+i;
+			}				
 		}
 	return 0;
 }
@@ -108,8 +108,6 @@ void sendBaseDataAboutIphone()
 	//extern void Write_SOCK_Data_Buffer(SOCKET s, unsigned char *dat_ptr, unsigned short size);
 	char buf[20];
 	
-	strcpy(iinfo.num,"963258");
-	strcpy(iinfo.serPort,"9601");
 	
 	memset(buf,'\0',20);
 	sprintf(buf,"NUM:%s",iinfo.num);
@@ -144,9 +142,10 @@ int getTcpSerCmd(u8 *data)
 {
 	int recode = 0;
 	recode = getCmdType(data);
+	printf("recode = %d\r\n",recode);
 	switch(recode)
 	{
-	  case 10:
+	  	case 10:
 			//通话请求//获取对方的num
 			getRemoteNum(data);
 			isCallUp = 1;
@@ -214,7 +213,6 @@ void closeSerSocket()
 
 void initServer(SOCKET sock)
 {
-	
 	strcpy((char *)socketInfo[sock].info.Port,(char *)iinfo.serPort);
 	strcpy((char *)socketInfo[sock].info.DPort,(char *)"");
 	strcpy((char *)socketInfo[sock].info.DIP,(char *)"");	
